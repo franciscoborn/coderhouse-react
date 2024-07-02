@@ -5,7 +5,7 @@ function ShopItemCard(props) {
     console.log(props);
     return (
         <div className="shop-item" key={props.keyItem}>
-            <img src={`${"../../img/shop-items/"}${item.image_src}`} />
+            <img src={`${import.meta.env.BASE_URL}"img/shop-items/"}${item.image_src}`} />
             <h2>{item.name}</h2>
             <div>
                 <button className="shop-item-button"> $ {item.cost} </button>
