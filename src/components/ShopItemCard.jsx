@@ -1,4 +1,5 @@
 import React from 'react'
+import './ShopItemCard.css'
 
 function ShopItemCard(props) {
     const item = props.item
@@ -7,8 +8,8 @@ function ShopItemCard(props) {
             <img src={`${import.meta.env.BASE_URL}img/shop-items/${item.image_src}`} />
             <h2>{item.name}</h2>
             <div>
-                <button className="shop-item-button"> $ {item.cost} </button>
-                <button className="shop-item-button-bundle">10x $ {item.cost * 0.9} </button>
+                <button className="shop-item-button"> ${item.cost} </button>
+                <button className="shop-item-button-bundle">10x ${item.cost * 9} </button>
             </div>
         </div>
     )

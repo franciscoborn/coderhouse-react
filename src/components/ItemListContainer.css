@@ -1,0 +1,9 @@
+.shop-items-container {
+    display: grid;
+    background-color: rgb(175, 177, 180);
+    justify-content: center;
+    justify-items: center;
+    align-content: space-around;
+    grid-template-columns: repeat(auto-fit, 300px);
+    width: 80vw;
+}
