@@ -2,7 +2,6 @@ import React from 'react'
 
 function ShopItemCard(props) {
     const item = props.item
-    console.log(props);
     return (
         <div className="shop-item" key={props.keyItem}>
             <img src={`${import.meta.env.BASE_URL}img/shop-items/${item.image_src}`} />
