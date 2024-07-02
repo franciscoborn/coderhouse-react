@@ -1,0 +1,55 @@
+nav {
+    background-color: #333;
+    padding: 10px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-mini-mage {
+    height: 90px;
+    width: 90px;
+}
+
+.btn-play-now {
+    height: 90px;
+    width: 120px;
+    font-size: larger;
+}
+
+.nav-link {
+    font-size: large;
+}
+
+#nav-left {
+    display: flex;
+    align-items: center;
+}
+
+#nav-right {
+    display: flex;
+    align-items: center;
+}
+
+#nav-right button {
+    margin: 2px 5px;
+    padding: 0px;
+}
+
+#nav-options {
+    display: flex;
+    list-style: none;
+}
+
+#nav-options li {
+    margin-left: 10px;
+}
+
+#nav-options li:first-child {
+    margin-left: 0;
+}
