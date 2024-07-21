@@ -7,3 +7,16 @@ button {
     height: 70px;
     width: 70px;
 }
+
+#count-cart-items {
+    position: relative;
+    bottom: 70px;
+    margin-bottom: -24px;
+    left: 70px;  
+    border: 2px solid line;
+    border-color: black;
+    border-radius: 50%;
+    width: 20px;
+    background-color: yellow;
+    color: black;
+}

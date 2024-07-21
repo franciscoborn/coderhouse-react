@@ -44,12 +44,22 @@ nav {
 #nav-options {
     display: flex;
     list-style: none;
+    
 }
 
 #nav-options li {
-    margin-left: 10px;
+    margin-left: 5px;
+    width: 140px;
+    height: 70px;
+    font-size: large;
+    background-color: #1a1a1a;
+    border: 1px solid #1a1a1a;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 #nav-options li:first-child {
-    margin-left: 0;
+    margin-left: 10px;
 }

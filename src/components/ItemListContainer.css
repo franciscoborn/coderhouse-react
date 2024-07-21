@@ -7,3 +7,15 @@
     grid-template-columns: repeat(auto-fit, 300px);
     width: 80vw;
 }
+
+#select-container {
+    font-size: large;
+    margin: 5px;
+    padding: 5px;
+
+    select {
+        font-size: inherit;
+        margin: inherit;
+        padding: inherit;
+    }
+}
